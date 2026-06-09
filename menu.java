@@ -33,8 +33,12 @@ public class menu {
 
             case 3:
 
+
                 break;
             case 4:
+                System .out.println("Ingrese el radio del circulo: ");
+                double radio = teclado.nextDouble();
+
 
                 break;
             case 5:
