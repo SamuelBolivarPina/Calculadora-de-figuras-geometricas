@@ -1,4 +1,4 @@
-package feature;
+/*package feature;
 import java.util.Scanner;
 public class areaTriangulo {
     public static void main(String[] args){
@@ -11,4 +11,4 @@ public class areaTriangulo {
           System.out.println("El area del triangulo es: " + area);
           sc.close();
     }
-}
+}*/
