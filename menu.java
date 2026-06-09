@@ -1,3 +1,5 @@
+import feature.areaTriangulo;
+
 import java.util.Scanner;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
@@ -37,7 +39,12 @@ public class menu {
                     break;
 
                 case 3:
-                    double areatrigufeature = feature.areaTriangulo.main(null);
+                    double baseTri = pedirNumero(teclado, "Ingresa la base del triángulo:");
+                    double alturaTri = pedirNumero(teclado, "Ingresa la altura del triángulo:");
+
+                    double areatri = areaTriangulo.calcularArea(baseTri, alturaTri);
+
+                    System.out.println("El área del triángulo es: " + areatri);
                     break;
                 case 4:
                     double radio = pedirNumero(teclado, "Ingresa el radio del círculo:");
