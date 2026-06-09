@@ -1,5 +1,3 @@
-package feature;
-
 import java.util.Scanner;
 
 public class areaTriangulo {
