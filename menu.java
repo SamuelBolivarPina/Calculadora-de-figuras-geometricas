@@ -33,14 +33,15 @@ public class menu {
                 case 2:
                     double baseRec = pedirNumero(teclado, "Ingresa la base del rectángulo:");
 
+
                     break;
 
                 case 3:
-                    double baseTri = pedirNumero(teclado, "Ingresa la base del triángulo:");
+                    double areatrigufeature = feature.areaTriangulo.main(null);
                     break;
                 case 4:
                     double radio = pedirNumero(teclado, "Ingresa el radio del círculo:");
-
+                    double areacir =  AreaCirculo.areaCirculo(radio);
 
                     break;
                 case 5:
