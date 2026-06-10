@@ -1,5 +1,3 @@
-import feature.areaTriangulo;
-
 import java.util.Scanner;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
@@ -35,7 +33,6 @@ public class menu {
                 case 2:
                     double baseRec = pedirNumero(teclado, "Ingresa la base del rectángulo:");
 
-
                     break;
 
                 case 3:
@@ -48,7 +45,7 @@ public class menu {
                     break;
                 case 4:
                     double radio = pedirNumero(teclado, "Ingresa el radio del círculo:");
-                    double areacir =  AreaCirculo.areaCirculo(radio);
+                    AreaCirculo.areaCirculo(radio);
 
                     break;
                 case 5:
