@@ -15,6 +15,6 @@ class AreaCirculo {
     public static void areaCirculo(double radio) {
         double area = Math.PI * radio * radio;
         System.out.println("\nEl area del circulo cuyo radio es " + radio + " es: " + area);
-        return(area);
+
     }
 }
